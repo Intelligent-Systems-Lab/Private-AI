@@ -28,7 +28,7 @@ def pad_and_truncate(messages, max_length=30):
 
 
 if __name__ == '__main__':
-    data = pd.read_csv('data/SMSSpamCollection.txt', sep='\t', header=None, names=['label', 'sms'])
+    data = pd.read_csv('data/SMSSpamCollection', sep='\t', header=None, names=['label', 'sms'])
     data.sms = data.sms.apply(clean_text)
     words = set((' '.join(data.sms)).split())
     word_to_idx = {word: i for i, word in enumerate(words, 1)}
