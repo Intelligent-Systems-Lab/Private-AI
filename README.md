@@ -3,7 +3,7 @@ Repository with tutorials and applications of Private-AI algorithms with PySyft
 
 ## Run demo in colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/tony92151/c952ae59715d439533ced2c4621d28e7/federated-learning-with-pysyft-and-pytorch-colab-demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Intelligent-Systems-Lab/Private-AI/blob/master/Federated_Learning/Federated_learning_with_Pysyft_and_Pytorch_colab_demo.ipynb)
 
 
 
